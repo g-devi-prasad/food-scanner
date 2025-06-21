@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Scanner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Scanner</h1>
+        <p>Your one-stop shop to find the cheapest food delivery options in India.</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <select id="location-search">
+                <option value="" disabled selected>Select your location</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <select id="food-search" disabled>
+                <option value="" disabled selected>Select a dish</option>
+            </select>
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="results-container">
+            
+        </div>
+    </main>
+
+    <script src="public/js/app.js"></script>
+</body>
+</html> 
